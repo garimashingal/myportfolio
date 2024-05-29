@@ -47,9 +47,9 @@ export default function Contact() {
               <h2 className="text-white title-font font-semibold tracking-widest text-xs  mt-4">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <p className="text-indigo-400 leading-relaxed">
                 er.garimasinghal@gmail.com
-              </a>
+              </p>
             </div>
             {/* <div className=" lg:w-1/2 mt-4 lg:mt-0 px-4 pr-12">
               <h2 className="text-white title-font font-semibold tracking-widest text-xs">
