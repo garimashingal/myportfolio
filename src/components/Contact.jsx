@@ -67,17 +67,17 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
+          data-netlify="true"
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
-          <h2 className="text-3xl text-white title-font mb-1 font-medium sm:text-4xl">
-            Hire Me
+          <h2 className="text-3xl text-white title-font mb-2 font-medium sm:text-4xl">
+            Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          {/* <p className="leading-relaxed mb-5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
+          </p> */}
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
