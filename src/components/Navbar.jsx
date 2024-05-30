@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0">
+    <header className="bg-gray-800 md:sticky top-0 bg-opacity-80">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <section className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
@@ -13,7 +13,7 @@ export default function Navbar() {
 
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
+            Projects
           </a>
 
           <a href="#skills" className="mr-5 hover:text-white">
@@ -25,15 +25,16 @@ export default function Navbar() {
           </a>
         </nav>
 
-        <div className=" mt-1 md:mt-0">
+        <div className="mt-1 md:mt-0">
           <SocialIcon
             target="_blank"
             url="https://www.linkedin.com/in/garima-shingal-8348417/"
-            style={{ height: "30px" }}
+            style={{ height: "30px", width: "30px", marginRight: "14px" }}
           />
           <SocialIcon
             target="_blank"
             url="https://github.com/garimashingal/myProjects"
+            style={{ height: "40px", width: "40px", marginRight: "14px" }}
           />
         </div>
 
