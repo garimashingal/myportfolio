@@ -5,24 +5,24 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // function encode(data) {
-  //   return Object.keys(data)
-  //     .map(
-  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-  //     )
-  //     .join("&");
-  // }
+  function encode(data) {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  }
 
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   fetch("/", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: encode({ "form-name": "contact", name, email, message }),
-  //   })
-  //     .then(() => alert("Message sent!"))
-  //     .catch((error) => alert(error));
-  // }
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+      .then(() => alert("Message sent!"))
+      .catch((error) => alert(error));
+  }
 
   return (
     <section id="contact" className="relative">
@@ -121,7 +121,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-            //onSubmit={handleSubmit}
+            onSubmit={handleSubmit}
           >
             Submit
           </button>
