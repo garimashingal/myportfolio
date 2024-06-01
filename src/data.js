@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Restaurant website",
+    subtitle: "HTML/CSS, Bootstrap and Javascript",
+    description:
+      "This website is designed and developed in HTML/CSS, Bootstrap and Javascript for a resturant.",
+    image: "bistro.gif",
+    link: "https://garimashingal.github.io/myProjects/Restraunt%20Website%20-%20SPA/index.html",
+  },
+  {
+    title: "E-learning website",
+    subtitle: "HTML/CSS, Bootstrap and Javascript",
+    description:
+      "This website is designed and developed in HTML/CSS, Bootstrap and Javascript for E-learning institution.",
+    image: "shineacademy.gif",
+    link: "https://garimashingal.github.io/myProjects/Shine_Learning_Academy/",
+  },
+  {
     title: "Investment Calculator",
     subtitle: "React",
     description:
@@ -22,14 +38,14 @@ export const projects = [
     image: "tic-tac-toe.gif",
     link: "https://github.com/garimashingal/myProjects/tree/main/React%20Projects/tic-tac-toe",
   },
-  {
-    title: "Phone Directory",
-    subtitle: "React and Javascript",
-    description:
-      "This is an app used to create and manage contacts in a phone directory.",
-    image: "directory.gif",
-    link: "https://github.com/garimashingal/myProjects/tree/main/React%20Projects/phone-directory",
-  },
+  // {
+  //   title: "Phone Directory",
+  //   subtitle: "React and Javascript",
+  //   description:
+  //     "This is an app used to create and manage contacts in a phone directory.",
+  //   image: "directory.gif",
+  //   link: "https://github.com/garimashingal/myProjects/tree/main/React%20Projects/phone-directory",
+  // },
 ];
 
 export const skills = [
