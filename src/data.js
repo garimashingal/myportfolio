@@ -3,7 +3,7 @@ export const projects = [
     title: "Restaurant website",
     subtitle: "HTML/CSS, Bootstrap and Javascript",
     description:
-      "This website is designed and developed in HTML/CSS, Bootstrap and Javascript for a resturant.",
+      "This website is built with modern web technologies, ensuring a seamless browsing experience. JSON files are used to dynamically load content, making updates easy and efficient.",
     image: "bistro.gif",
     link: "https://garimashingal.github.io/myProjects/Restraunt%20Website%20-%20SPA/index.html",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "E-learning website",
     subtitle: "HTML/CSS, Bootstrap and Javascript",
     description:
-      "This website is designed and developed in HTML/CSS, Bootstrap and Javascript for E-learning institution.",
+      "This E-Learning website is a dynamic and user-friendly platform designed in HTML/CSS, Bootstrap and Javascript to facilitate online education.",
     image: "shineacademy.gif",
     link: "https://garimashingal.github.io/myProjects/Shine_Learning_Academy/",
   },
@@ -34,7 +34,8 @@ export const projects = [
   {
     title: "Tic-Tac-Toe",
     subtitle: "React and Javascript",
-    description: "This is a tic-tac-toe game played between 2 players.",
+    description:
+      "Tic Tac Toe game is an interactive and engaging implementation of the classic game, built using React and JavaScript, providing an enjoyable user experience.",
     image: "tic-tac-toe.gif",
     link: "https://github.com/garimashingal/myProjects/tree/main/React%20Projects/tic-tac-toe",
   },
