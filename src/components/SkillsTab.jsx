@@ -35,10 +35,10 @@ export default function SkillsTab() {
       <div id="tabs-content" className=" text-lg font-medium text-white mt-10">
         <div className={toggleTab === 1 ? " " : "hidden"}>
           <h2>Skills</h2>
-          <div className="flex flex-wrap mx-auto lg:w-4/5 sm:w-auto mt-10">
+          <div className="flex flex-wrap mx-auto w-full sm:w-auto mt-10">
             {skills.map((skill) => {
               return (
-                <div key={skill} className=" p-2 sm:w-1/2 w-full">
+                <div key={skill} className=" p-2 lg:w-1/2 w-full">
                   <div className="mx-10 flex rounded bg-gray-800 p-4 h-full items-center">
                     <CheckBadgeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
                     <span className="text-white title-font font-medium">
