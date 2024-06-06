@@ -39,7 +39,7 @@ export default function SkillsTab() {
             {skills.map((skill) => {
               return (
                 <div key={skill} className=" p-2 lg:w-1/2 w-full">
-                  <div className="mx-10 flex rounded bg-gray-800 p-4 h-full items-center w-full">
+                  <div className="flex rounded bg-gray-800 p-4 h-full items-center w-full">
                     <CheckBadgeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
                     <span className="text-white title-font font-medium">
                       {skill}
