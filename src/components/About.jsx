@@ -13,7 +13,7 @@ export default function About() {
           <br />
 
           <p className="mb-8 leading-relaxed">
-            I am a software developer with 6 years of experience in various
+            I am a software developer with 6+ years of experience in various
             organizations. After a career break to care for my family, I am now
             eager to re-enter the tech industry. I specialize in developing
             responsive web applications using HTML, CSS, JavaScript, React,

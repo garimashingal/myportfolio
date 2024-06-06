@@ -66,6 +66,7 @@ export default function Contact() {
             </div> */}
           </div>
         </div>
+
         <form
           data-netlify="true"
           name="contact"
@@ -75,10 +76,6 @@ export default function Contact() {
           <h2 className="text-3xl text-white title-font mb-2 font-medium sm:text-4xl">
             Contact Me
           </h2>
-          {/* <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p> */}
           <input type="hidden" name="form-name" value="contact" />
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

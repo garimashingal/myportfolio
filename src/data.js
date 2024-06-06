@@ -56,4 +56,19 @@ export const skills = [
   "Tailwind CSS",
   "Python",
   "SQL",
+  "GitHub",
+];
+
+export const education = [
+  "Bachelors of Technology - Computer Science (2002-2006)",
+  "HTML, CSS, and Javascript for Web Developers (John Hopkins University)",
+  "Object Oriented Programming using Python (Infosys Springboard)",
+  "Scrum Fundamental Certification (SCRUMstudy)",
+  "Career Essentials in Generative AI by Microsoft and LinkedIn",
+];
+
+export const experience = [
+  "Freelancer (July 2022 - Present)",
+  "Senior Software Engineer (October 2010 - May 2012)",
+  "Software Engineer (July 2006 - October 2010)",
 ];
