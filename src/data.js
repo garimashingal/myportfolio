@@ -69,7 +69,7 @@ export const education = [
 ];
 
 export const experience = [
-  "Freelancer (July 2022 - Present)",
-  "Senior Software Engineer (October 2010 - May 2012)",
-  "Software Engineer (July 2006 - October 2010)",
+  "Freelancer - Remote (July 2022 - Present)",
+  "Senior Software Engineer - Open Solutions (October 2010 - May 2012)",
+  "Software Engineer - MS Technology Pvt Ltd (July 2006 - October 2010)",
 ];
